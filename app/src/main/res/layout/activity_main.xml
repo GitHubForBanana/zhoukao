@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.keng.zidingyi_view.MainActivity">
+
+<!--<view.MyView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:MyText="自定义"
+    app:MyTextColor="#00ff00"
+    />-->
+   <!-- <view.PathView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />-->
+    <!--<view.CircleView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />-->
+<view.BitmapAndTextview
+    android:id="@+id/myview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    />
+  <!--<view.CountDownView
+        android:id="@+id/downtext"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_margin="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        app:CountDownBgColor="@color/colorPrimary"
+        app:CountRadius="30dp"
+        ></view.CountDownView>-->
+</RelativeLayout>
